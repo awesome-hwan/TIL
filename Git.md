@@ -48,3 +48,9 @@ git diff   | 작업 디렉토리와 스테이징 영역 간의 차이점을 보�
 git commit | 스테이징 영역의 파일 변경 사항을 저장소에 영구 저장합니다.
 git log    | 이전의 모든 커밋 목록을 보여줍니다.  
 ```
+
+7. head commit  
+`git show HEAD`
+가장 마지막에 commit된 내용과 commit 정보를 표현한다.  
+
+8. git checkout  
