@@ -54,3 +54,19 @@ git log    | 이전의 모든 커밋 목록을 보여줍니다.
 가장 마지막에 commit된 내용과 commit 정보를 표현한다.  
 
 8. git checkout  
+`git checkout HEAD fileName`
+가장 마지막에 commit된 내용으로 돌아간다.  
+
+9. git reset   
+`git reset HEAD fileName`  
+준비 영역에서 해당 파일을 내려놓는다.  
+
+10. git reset  
+`git reset HEAD(7자리)`
+해당 커밋으로 이동한다.   
+
+```sh
+git checkout HEAD filename | 작업 디렉토리의 변경 사항을 삭제합니다.  
+git reset HEAD filename    | 준비 영역에서 파일 변경을 취소합니다. 
+git reset commit_SHA       | 커밋 내역에서 이전 커밋으로 리셋합니다. 
+```
