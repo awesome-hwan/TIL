@@ -79,4 +79,13 @@ git reset commit_SHA       | 커밋 내역에서 이전 커밋으로 리셋합�
 `git checkout new_branch`
 새로운 브랜치로 현재 브랜치를 이동시킨다.  
 
-13. 
+13. git branch delete  
+`git branch -d branchName`
+
+```sh
+git branch               | 브랜치 리스트업.
+git branch new_branch    | 새로운 브랜치 생성.
+git checkout branch_name | 해당 브랜치로 이동.
+git merge branch_name    | 한쪽으로 브랜치를 합침.
+git branch -d branch_name| 브랜치 삭제.
+```
