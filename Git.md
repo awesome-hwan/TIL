@@ -70,3 +70,13 @@ git checkout HEAD filename | 작업 디렉토리의 변경 사항을 삭제합�
 git reset HEAD filename    | 준비 영역에서 파일 변경을 취소합니다. 
 git reset commit_SHA       | 커밋 내역에서 이전 커밋으로 리셋합니다. 
 ```
+
+11. git branch  
+`git branch new_branch`
+새로운 브랜치를 생성한다.  
+
+12. git checkout 
+`git checkout new_branch`
+새로운 브랜치로 현재 브랜치를 이동시킨다.  
+
+13. 
