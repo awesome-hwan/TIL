@@ -89,3 +89,20 @@ git checkout branch_name | 해당 브랜치로 이동.
 git merge branch_name    | 한쪽으로 브랜치를 합침.
 git branch -d branch_name| 브랜치 삭제.
 ```
+
+14. git clone  
+`git clone remote_location clone_name`  
+git을 복제해온다.  
+
+15. git remote  
+`git remote -v`  
+출저를 나타내준다.  
+
+16. git fetch  
+`git fetch`  
+리모컨에 변경사항이 있는지 파악한 후, 로컬영역으로 변경사항을 가져온다.  
+
+17. git merge  
+`git merge origin/master HEAD`  
+현 브랜치에 HEAD 커밋 내용을 가진것을 병합한다.  
+
