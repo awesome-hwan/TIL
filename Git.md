@@ -106,3 +106,4 @@ git을 복제해온다.
 `git merge origin/master HEAD`  
 현 브랜치에 HEAD 커밋 내용을 가진것을 병합한다.  
 
+18. d
