@@ -106,4 +106,10 @@ git을 복제해온다.
 `git merge origin/master HEAD`  
 현 브랜치에 HEAD 커밋 내용을 가진것을 병합한다.  
 
-18. d
+```sh
+git clone | 사본을 생성한다.  
+git remote -v | 프로젝트의 리모트를 나열.  
+git fetch | 로컬로 웹서버 내용 다운로드.
+git merge origin/master | 현 브랜치에 다른 브랜치 병합.
+git push origin BranchName | 변경사항 반영하기.   
+```
