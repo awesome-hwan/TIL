@@ -26,3 +26,8 @@
 
 
 웹기술 (html, css, js)를 이용해 앱에 적용 시킬 수 있는 plugin이다.  
+
+> typescript  
+
+js와는 다르게 type이 존재하며 언어적 구성이 약간 다르다.  
+
