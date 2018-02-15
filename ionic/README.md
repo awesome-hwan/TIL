@@ -19,3 +19,10 @@
 |-about.scss
 |-about.ts
 ```
+
+> cordova  
+
+<img width="854" alt="2018-02-15 8 35 31" src="https://user-images.githubusercontent.com/25549306/36254914-3e792a3c-1290-11e8-9271-6ccc733d5118.png">
+
+
+웹기술 (html, css, js)를 이용해 앱에 적용 시킬 수 있는 plugin이다.  
