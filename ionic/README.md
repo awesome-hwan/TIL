@@ -33,5 +33,11 @@ js와는 다르게 type이 존재하며 언어적 구성이 약간 다르다.
 
 js와 다르게 var의 type을 명확하게 지정할 수 있다.  
 
+> class VS. interface  
+
+class => construct 사용 가능(정의 시 public 사용 가능).  
+interface => 명확하게 정의할 때.
+
+
 
 
