@@ -38,6 +38,8 @@ js와 다르게 var의 type을 명확하게 지정할 수 있다.
 class => construct 사용 가능(정의 시 public 사용 가능).  
 interface => 명확하게 정의할 때.
 
+> ng  
 
+*ngIf: HTML에서 아예 사라짐.  
 
 
