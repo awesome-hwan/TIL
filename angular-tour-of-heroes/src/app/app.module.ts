@@ -9,13 +9,17 @@ import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
 import { MessageComponent } from './message/message.component';
 import { AppRoutingModule } from './app-routing.module';
+import { DashboradComponent } from './dashborad/dashborad.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessageComponent
+    MessageComponent,
+    DashboradComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
