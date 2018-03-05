@@ -8,7 +8,7 @@ import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 import { HeroesComponent }      from './heroes/heroes.component';
 import { HeroService }          from './hero.service';
 import { MessageService }       from './message.service';
-import { MessagesComponent }    from './messages/messages.component';
+import { MessageComponent }    from './message/message.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 
@@ -23,7 +23,7 @@ import { AppRoutingModule }     from './app-routing.module';
     DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessageComponent
   ],
   providers: [ HeroService, MessageService ],
   bootstrap: [ AppComponent ]
