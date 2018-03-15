@@ -1,8 +1,19 @@
 <h2>My Heroes</h2>
+<h3>Raised Buttons</h3>
+<div class="button-row">
+  <button mat-raised-button>Basic</button>
+  <button mat-raised-button color="primary">Primary</button>
+  <button mat-raised-button color="accent">Accent</button>
+  <button mat-raised-button color="warn">Warn</button>
+  <button mat-raised-button disabled>Disabled</button>
+  <a mat-raised-button routerLink=".">Link</a>
+</div>
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
     <a routerLink="/detail/{{hero.id}}">
-      <span class="badge">{{hero.id}}</span> {{hero.name}}
+      <span class="badge">dddd{{hero.id}}</span> {{hero.name}}
+      <h3>Basic Buttons</h3>
+
     </a>
   </li>
 </ul>

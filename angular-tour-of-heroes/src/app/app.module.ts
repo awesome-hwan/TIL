@@ -12,11 +12,17 @@ import { MessageComponent }    from './message/message.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';
+
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule, 
+    MatCheckboxModule
   ],
   declarations: [
     AppComponent,
