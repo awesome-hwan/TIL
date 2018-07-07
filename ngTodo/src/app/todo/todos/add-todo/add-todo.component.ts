@@ -43,11 +43,14 @@ export class AddTodoComponent implements OnInit {
   @Output() onTodoAdded = new EventEmitter();
   newText: string;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
+
   addTodo(newText: string) {
     this.onTodoAdded.emit(newText);
     this.newText = '';
+  }
 }
